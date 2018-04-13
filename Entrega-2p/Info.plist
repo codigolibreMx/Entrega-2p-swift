@@ -41,5 +41,33 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSAppTransportSecurity</key>
+     <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+         <key>NSExceptionDomains</key>
+         <dict>
+             <key>https://6ht6ovuahj.execute-api.us-east-1.amazonaws.com/api/register</key>
+             <dict>
+                 <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                 <true/>
+             </dict>
+             <key>https://6ht6ovuahj.execute-api.us-east-1.amazonaws.com/api/forgot</key>
+             <dict>
+                 <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                 <true/>
+             </dict>
+             <key>https://6ht6ovuahj.execute-api.us-east-1.amazonaws.com/api/login/</key>
+             <dict>
+                 <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                 <true/>
+             </dict>
+             <key>https://6ht6ovuahj.execute-api.us-east-1.amazonaws.com/api/posts/</key>
+             <dict>
+                 <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                 <true/>
+             </dict>
+        </dict>
+    </dict>
 </dict>
 </plist>

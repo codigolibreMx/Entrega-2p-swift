@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         super.viewDidLoad()
 //        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
 //        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
-
+        print("hi")
         
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
